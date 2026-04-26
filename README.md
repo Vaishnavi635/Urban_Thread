@@ -128,9 +128,3 @@ Urban_Thread/
 - **Security**: Authentication uses HTTP-only cookies to mitigate XSS risks.
 - **Performance**: Images are optimized for fast loading and use high-quality Unsplash sources.
 - **Scalability**: The modular structure allows for easy addition of new features like Reviews, Wishlists, and Order History.
-
----
-
-## 👤 Author
-**Vaishnavi Bisht**  
-[vaishanvi745bisht@gmail.com](mailto:vaishnavi745bisht@gmail.com)
