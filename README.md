@@ -132,5 +132,5 @@ Urban_Thread/
 ---
 
 ## 👤 Author
-**Anshika Rawat**  
-[rawatanshiak007@gmail.com](mailto:rawatanshiak007@gmail.com)
+**Vaishnavi Bisht**  
+[vaishanvi745bisht@gmail.com](mailto:vaishnavi745bisht@gmail.com)
