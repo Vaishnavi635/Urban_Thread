@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *, [data-theme="dark"], [data-theme="dark"] *));
+
+@theme {
+  --color-primary: var(--primary);
+  --color-accent: var(--accent);
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+:root {
+  --foreground-rgb: 15, 23, 42;
+  --background-start-rgb: 248, 250, 252;
+  --background-end-rgb: 241, 245, 249;
+  
+  --primary: #0f172a;
+  --accent: #0ea5e9; 
+  --error: #ef4444;
+  --success: #10b981;
+}
+
+[data-theme='dark'], .dark {
+  --foreground-rgb: 243, 244, 246;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+  --primary: #ffffff;
+  --accent: #38bdf8;
+}
+
+/* Forced Global Dark Overrides */
+[data-theme='dark'], 
+[data-theme='dark'] body, 
+[data-theme='dark'] main,
+[data-theme='dark'] section {
+  background-color: #000 !important;
+}
+
+[data-theme='dark'] h1,
+[data-theme='dark'] h2,
+[data-theme='dark'] h3,
+[data-theme='dark'] h4,
+[data-theme='dark'] h5,
+[data-theme='dark'] h6,
+[data-theme='dark'] p,
+[data-theme='dark'] span,
+[data-theme='dark'] a:not(.premium-button),
+[data-theme='dark'] label,
+[data-theme='dark'] .logo-text {
+  color: #ffffff !important;
+}
+
+[data-theme='dark'] .premium-button {
+  background-color: var(--accent) !important;
+  color: #000000 !important;
+}
+
+[data-theme='dark'] .premium-card {
+  background-color: #000 !important;
+  border-color: #1f2937 !important;
+}
+
+[data-theme='dark'] nav,
+[data-theme='dark'] header,
+[data-theme='dark'] footer {
+  background-color: #000 !important;
+  border-color: #1f2937 !important;
+}
+
+/* Accessibility Modes */
+/* Accessibility Modes */
+.deuteranopia {
+  filter: url(#deuteranopia-filter);
+}
+
+.protanopia {
+  filter: url(#protanopia-filter);
+}
+
+.tritanopia {
+  filter: url(#tritanopia-filter);
+}
+
+.high-contrast {
+  filter: contrast(150%) brightness(110%);
+  --background-start-rgb: 0, 0, 0 !important;
+  --background-end-rgb: 0, 0, 0 !important;
+  --foreground-rgb: 255, 255, 255 !important;
+  --accent: #38bdf8 !important;
+}
+
+.high-contrast * {
+  background-color: #000 !important;
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
+.high-contrast .premium-button {
+  background-color: #38bdf8 !important;
+  color: #000 !important;
+  border: 2px solid #fff !important;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      rgb(var(--background-start-rgb)),
+      rgb(var(--background-end-rgb))
+    );
+  min-height: 100vh;
+  transition: background 0.4s cubic-bezier(0.4, 0, 0.2, 1), color 0.4s ease;
+}
+
+.premium-card {
+  @apply bg-white dark:bg-zinc-900 border border-zinc-100 dark:border-zinc-800 rounded-[32px] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] dark:shadow-none transition-all duration-700;
+}
+
+.premium-card:hover {
+  @apply shadow-[0_20px_50px_rgba(0,0,0,0.08)] dark:shadow-[0_20px_50px_rgba(56,189,248,0.05)];
+  border-color: color-mix(in srgb, var(--accent) 20%, transparent);
+}
+
+.premium-button {
+  @apply px-10 py-3.5 bg-slate-900 dark:bg-sky-500 text-white dark:text-black rounded-full font-bold text-[11px] uppercase tracking-[0.2em] hover:bg-slate-800 dark:hover:bg-sky-400 active:scale-95 transition-all duration-500 shadow-xl shadow-slate-900/10 dark:shadow-sky-500/20;
+}
+
+.glass-nav {
+  @apply sticky top-0 z-50 bg-white/80 dark:bg-black/80 backdrop-blur-2xl border-b border-slate-200/50 dark:border-zinc-800/50;
+}

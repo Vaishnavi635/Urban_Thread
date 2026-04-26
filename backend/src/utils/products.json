@@ -1,0 +1,210 @@
+[
+    {
+        "name": "Urban Slim Fit Denim",
+        "description": "Premium stretch denim with a tapered fit. Hand-distressed for an authentic urban look and feel. Japanese selvedge construction.",
+        "price": 120,
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?q=80&w=1000&auto=format&fit=crop"
+            }
+        ],
+        "category": "Men",
+        "stock": 50,
+        "ratings": 4.8
+    },
+    {
+        "name": "Modern Oversized Hoodie",
+        "description": "Heavyweight French terry hoodie with a relaxed silhouette and dropped shoulders. Ultimate comfort meets street style.",
+        "price": 95,
+        "images": [
+            {
+                "url": "https://www.maincharacterindia.com/cdn/shop/files/09_94b947af-84ce-4b3c-8b02-d30eb77a53c6.jpg?v=1769880677&width=533"
+            }
+        ],
+        "category": "Men",
+        "stock": 40,
+        "ratings": 4.6
+    },
+    {
+        "name": "Essential Crew Neck Tee",
+        "description": "Supima cotton crew neck with a perfect mid-weight drape. Reinforced collar that holds its shape wash after wash.",
+        "price": 45,
+        "images": [
+            {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA4x8MZt321gFP-kMaVg6jSdHa8dpP6EwUgg&s"
+            }
+        ],
+        "category": "Men",
+        "stock": 100,
+        "ratings": 4.7
+    },
+    {
+        "name": "Tailored Chino Trousers",
+        "description": "Slim-fit chinos crafted from brushed stretch twill. A versatile piece that transitions effortlessly from office to evening.",
+        "price": 89,
+        "images": [
+            {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTMZaNd0yQJGrSHgDoBp1VRfw8B7aEohn18g&s"
+            }
+        ],
+        "category": "Men",
+        "stock": 35,
+        "ratings": 4.5
+    },
+    {
+        "name": "Bomber Jacket — Matte Black",
+        "description": "Nylon shell bomber with quilted lining. Custom matte-black hardware and ribbed cuffs. An all-season layering essential.",
+        "price": 175,
+        "images": [
+            {
+                "url": "https://belier.com/cdn/shop/files/250923Belier_1865.jpg?v=1760535869"
+            }
+        ],
+        "category": "Men",
+        "stock": 20,
+        "ratings": 4.9
+    },
+    {
+        "name": "Merino Wool Quarter-Zip",
+        "description": "Fine-gauge merino wool pullover with a modern quarter-zip collar. Naturally temperature-regulating and odor-resistant.",
+        "price": 135,
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1614975059251-992f11792571?q=80&w=1000&auto=format&fit=crop"
+            }
+        ],
+        "category": "Men",
+        "stock": 25,
+        "ratings": 4.7
+    },
+    {
+        "name": "Structured Linen Blazer",
+        "description": "Unlined linen-blend blazer with a contemporary slim cut. Patch pockets and natural texture for warm-weather sophistication.",
+        "price": 210,
+        "images": [
+            {
+                "url": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/AF7226s.jpg?im=Resize,width=750"
+            }
+        ],
+        "category": "Men",
+        "stock": 15,
+        "ratings": 4.8
+    },
+    {
+        "name": "Classic Minimalist Trench Coat",
+        "description": "A timeless trench coat designed for the modern professional. Made from water-resistant cotton blend with premium finishes.",
+        "price": 299,
+        "images": [
+            {
+                "url": "https://d1pdzcnm6xgxlz.cloudfront.net/tops/8445866855098-9.jpg"
+            }
+        ],
+        "category": "Women",
+        "stock": 15,
+        "ratings": 4.5
+    },
+    {
+        "name": "Silk Midi Wrap Dress",
+        "description": "Flowing silk midi dress with a flattering wrap silhouette. Hand-finished seams and a subtle sheen for evening wear.",
+        "price": 245,
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=1000&auto=format&fit=crop"
+            }
+        ],
+        "category": "Women",
+        "stock": 18,
+        "ratings": 4.9
+    },
+    {
+        "name": "Cashmere V-Neck Sweater",
+        "description": "100% Grade-A cashmere with a relaxed V-neck. Featherweight warmth that layers beautifully under blazers or coats.",
+        "price": 195,
+        "images": [
+            {
+                "url": "https://m.media-amazon.com/images/I/71yxDoo3TnL._AC_UY1100_.jpg"
+            }
+        ],
+        "category": "Women",
+        "stock": 22,
+        "ratings": 4.7
+    },
+    {
+        "name": "High-Rise Wide Leg Trousers",
+        "description": "Pleated wide-leg trousers in a fluid crepe fabric. A statement piece that combines comfort with architectural elegance.",
+        "price": 110,
+        "images": [
+            {
+                "url": "https://images.asos-media.com/products/river-island-high-waisted-wide-leg-trouser-in-cream/207025847-1-cream?$n_640w$&wid=513&fit=constrain"
+            }
+        ],
+        "category": "Women",
+        "stock": 30,
+        "ratings": 4.6
+    },
+    {
+        "name": "Leather Chelsea Boots",
+        "description": "Crafted from high-grade Italian leather with a durable Goodyear welt construction. Perfect for any occasion.",
+        "price": 185,
+        "images": [
+            {
+                "url": "https://teakwoodleathers.com/cdn/shop/files/T_SH_CLB_01_BL_1080x.jpg?v=1750932917"
+            }
+        ],
+        "category": "Accessories",
+        "stock": 25,
+        "ratings": 4.7
+    },
+    {
+        "name": "Signature Silk Scarf",
+        "description": "Luxurious 100% silk scarf featuring our signature Urban Thread geometric pattern. A versatile accessory for any look.",
+        "price": 65,
+        "images": [
+            {
+                "url": "https://brownliving.in/cdn/shop/files/pure-silk-scarf-handcrafted-eco-dyed-with-sappanwood-madder-cr-scarf-001-kokikar-1208511.webp?v=1760556667"
+            }
+        ],
+        "category": "Accessories",
+        "stock": 100,
+        "ratings": 4.9
+    },
+    {
+        "name": "Minimalist Leather Belt",
+        "description": "Full-grain vegetable-tanned leather belt with a brushed nickel buckle. Hand-stitched edges and 30mm width.",
+        "price": 55,
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=1000&auto=format&fit=crop"
+            }
+        ],
+        "category": "Accessories",
+        "stock": 60,
+        "ratings": 4.6
+    },
+    {
+        "name": "Canvas Weekender Bag",
+        "description": "Waxed canvas and leather weekender with brass hardware. Spacious interior with a dedicated shoe compartment.",
+        "price": 145,
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?q=80&w=1000&auto=format&fit=crop"
+            }
+        ],
+        "category": "Accessories",
+        "stock": 20,
+        "ratings": 4.8
+    },
+    {
+        "name": "Performance Running Sneakers",
+        "description": "Engineered mesh upper with responsive cushioning. Lightweight construction designed for urban runners.",
+        "price": 130,
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1000&auto=format&fit=crop"
+            }
+        ],
+        "category": "Accessories",
+        "stock": 45,
+        "ratings": 4.5
+    }
+]
